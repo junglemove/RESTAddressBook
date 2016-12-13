@@ -1,0 +1,31 @@
+/******/
+npm install express@4.10.1 => installe la version 4.10.1 du framework nodejs RESTful express
+
+/******/
+add node_module into .gitignore in order to not versionized node_module
+
+/******/
+npm install express@4.10.1 --save => le --save enregistre les dépendance dans package.json
+
+/******/
+versionage semantique:
+^4.10.1
+version_majeur.version_mineur.version_patch
+
+^ = en relançant un npm install, prendra la derniere version disponible
+~ = fix la version à utiliser
+
+version_majeur = changement majeur dans l'API
+version_mineur = changement mineur dans l'API
+version_patch = correction de bug
+
+/******/
+npm shrinkwrap
+npm-shrinkwrap.json => maximize node_module versions used (will fix express to 4.10.1 max)
+
+npm update express --save => mettra à jour package.json et shrinkwrap avec la derniere version
+
+/******/
+npm install browserify --save-dev => ajoute en devDependencies dans package.json
+
+
