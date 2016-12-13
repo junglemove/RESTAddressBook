@@ -28,4 +28,6 @@ npm update express --save => mettra à jour package.json et shrinkwrap avec la d
 /******/
 npm install browserify --save-dev => ajoute en devDependencies dans package.json
 
-
+/******/
+jspm.io =>
+yarnpkg.com => surcouche npm
